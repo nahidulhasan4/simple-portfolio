@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    font-family: 'open sans' , sans-serif;
+
+}
+/* Header section styles*/
+header{
+    background: #FFF8F3;
+    background-image: url(imgs/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 700px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 80px;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+}
+nav li {
+   list-style: none;
+   margin-left: 20px;
+   margin-top: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+}
+.hirebtn{
+    height: 60px;
+    font-weight: 700;
+    border: none;
+    padding: 20px 30px;
+    background-color: #FD6E0A;
+    border-radius: 3px;
+    color: aliceblue;
+    cursor: pointer;
+}
+.btncolor{
+    color: aliceblue;
+}
+.nav-title{
+    font-weight: 800px;
+    font-size: 45px;
+    
+}
+.nemetitle-color{
+    color: #FD6E0A;
+    
+}
+/* section desing bennar */
+.bennar{
+    display: flex;
+    margin: 0 200px;
+    align-items: center;
+
+}
+.nahid{
+    height: auto;
+    width: 70%;
+}
+.main-title{
+    font-size: 50px;
+}
+.sub-title{
+    font-size: 25px;
+    font-family: 'open snas' sans-serif;
+
+}
+.Ncaption{
+    font-size: 20px;
+    font-weight: 100px;
+    margin: 20px 0;
+}
+/* main section design  */
+
+main{
+    max-width: 90%;
+    margin: 0% auto;
+}
+.about{
+     margin-top: 130px;
+     background: #FFF8F3;
+     border-radius: 10px;
+     padding: 130px 150px;
+}
+.section-title{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+.section-caption {
+    line-height: 30px; 
+    text-align: center;
+    margin-bottom: 20px;
+}
+.tble-row{
+    color: #757575;
+    text-align: center;
+    margin-top: 30px;
+}
+td{
+    margin-left:20px ;
+    padding-left: 40px;
+}
+.address{
+    padding: 30px 50px;
+}
+/* skill section design  */
+.what-do{
+    margin-top: 130px;
+    margin-bottom: 40px;
+}
+.skills-container{
+    display: flex;
+    
+}
+skills{
+    height: 100;
+    margin: 10px 15px;
+    padding: 30px ;
+    background: #FFFFFF; 
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+    font-size: 20px;
+    width: 400px;
+
+}
+.sikll-title{
+    font-size: 25px;
+    font-weight: 700px;
+    margin: 10px 5px;
+}
+
+.skill-caption{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+/* resume section design  */
+.resume-content{
+    display: flex;
+}
+.resume-title{
+    font-size: 30px;
+}
+.resume-iteam{
+    margin-bottom: 20px;
+}
+.rtitle{
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+    margin: 10px 0;
+}
+.rsub-title{
+   color: #757575;
+   font-weight: 600;
+   font-size: 15px;
+   margin-bottom: 10px;
+}
+.caption{
+  color: #757575;
+  font-size: 15px;
+  font-weight: 400px;
+}
+
+.resumebtn{
+    margin-top: 50px;
+    text-align: center;
+}
