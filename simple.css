@@ -34,11 +34,16 @@ nav ul li a{
     height: 60px;
     font-weight: 700;
     border: none;
-    padding: 20px 30px;
+    padding: 20px;
     background-color: #FD6E0A;
     border-radius: 3px;
     color: aliceblue;
     cursor: pointer;
+}
+.hirebtn :hover{
+    background-color: #FFF8F3;
+    color: #000;
+    transition: 2.3s;
 }
 .btncolor{
     color: aliceblue;
